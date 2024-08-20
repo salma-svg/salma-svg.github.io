@@ -38,7 +38,7 @@ The predictive modeling process estimates the mechanical properties of materials
 3. **Model Evaluation**:
    - **Metrics**:
       -  **R² Score**: Measures the proportion of variance in the target variable explained by the model. A higher R² score indicates a better fit of the model to the data.
-         - **Root Mean Squared Error (RMSE)**: Assesses the model’s prediction accuracy by measuring the square root of the average squared errors. Lower RMSE values indicate better predictive accuracy.  
+      - **Root Mean Squared Error (RMSE)**: Assesses the model’s prediction accuracy by measuring the square root of the average squared errors. Lower RMSE values indicate better predictive accuracy.  
          #### For Mechanical Resistance (Rm):
          - **Random Forest R²**: 0.83
          - **Random Forest RMSE**: 34.70
