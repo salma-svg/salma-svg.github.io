@@ -19,10 +19,6 @@ The results of the optimization are exported into two Excel files:
 
 ## Example Results
 
-- **Material Proportions**: See the optimal mix in the `resultats_{nom_nuance}.xlsx` file.
-- **Predictions**: Check the `resultats_composition{nom_nuance}.xlsx` file for the predicted values.
-
-## Code
-
-Refer to the **[Code](code.md)** section for more details on how results are generated and saved.
+- **Material Proportions**: See the optimal mix in the `resultats_GS 600-3` file.
+- **Predictions**: Check the `resultats_compositionGS 600-3.xlsx` file for the predicted values.
 
