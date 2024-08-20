@@ -23,10 +23,6 @@ The project is structured into several key phases:
 - **[Results](results.md)**: Insights and interpretations of the project results.
 - **[Code](code.md)**: A comprehensive guide to the code structure and how to use it.
 
-## Getting Started
-
-To get started with this project, please refer to the **[Code](code.md)** section for setup instructions and usage guidelines.
-
 ## About
 
 This project was developed by Salma Bouaouda. For more information, visit my [GitHub profile](https://github.com/salma-svg) or connect with me on [LinkedIn](https://linkedin.com/in/your-profile).
