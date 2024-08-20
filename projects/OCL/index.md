@@ -21,7 +21,7 @@ Where:
    ONO, Thielmann, and Mayer quality indices:
 
    $$
-   \sum_{i=1}^{n} \text{QualityIndex}_i \cdot x_i \leq \text{Threshold}
+   \sum_{i=1}^{n} {\text{QualityIndex}_i} \cdot x_i \leq \text{Threshold}
    $$
 
 #### **Chemical Composition Constraints**:
