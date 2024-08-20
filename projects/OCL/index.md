@@ -27,7 +27,6 @@ Where:
 #### **Chemical Composition Constraints**:
  
 For each chemical element $j$:
-
 $$
 \text{Min}_j \leq \sum_{i=1}^{n} \text{Composition}_{i,j} \cdot x_i \leq \text{Max}_j
 $$
