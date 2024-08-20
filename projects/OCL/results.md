@@ -10,6 +10,7 @@ title: Results
 The results of the optimization are exported into two Excel files:
 1. **`resultats_{nom_nuance}.xlsx`**: Contains the optimal proportions of each material and their costs.
 2. **`resultats_composition{nom_nuance}.xlsx`**: Contains the predicted mechanical resistance and elongation of the optimized composition.
+3. **`ErreursEtInfos.txt`: This file logs some errors and informational messages generated during the execution of the code. It provides a record of some issues often encountered.
 
 ### How to Interpret Results
 
@@ -19,6 +20,7 @@ The results of the optimization are exported into two Excel files:
 
 ## Example Results
 
-- **Material Proportions**: See the optimal mix in the `resultats_GS 600-3` file.
-- **Predictions**: Check the `resultats_compositionGS 600-3.xlsx` file for the predicted values.
+- **Material Proportions**: See the optimal mix in the [resultats_GS 600-3.xlsx](files/resultats_GS_600-3.xlsx) file.
+- **Predictions**: Check the [resultats_compositionGS 600-3.xlsx](files/resultats_compositionGS_600-3.xlsx) file for the predicted values.
+
 
