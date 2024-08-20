@@ -22,12 +22,6 @@ The results of the optimization are exported into two Excel files:
 - **Material Proportions**: See the optimal mix in the `resultats_{nom_nuance}.xlsx` file.
 - **Predictions**: Check the `resultats_composition{nom_nuance}.xlsx` file for the predicted values.
 
-## Troubleshooting
-
-If results are not as expected:
-- **Check Constraints**: Ensure all constraints are correctly defined.
-- **Adjust Constraints**: If mechanical properties or elongation thresholds are not met, constraints may need adjustment.
-
 ## Code
 
 Refer to the **[Code](code.md)** section for more details on how results are generated and saved.
