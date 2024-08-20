@@ -82,7 +82,3 @@ The problem is solved using the CBC or COIN-OR solvers in the Pulp, a python lib
 
 The initial solution is used as an input to the prediction model. If the output doesnt respect the quality threshold value, the linear constraints are adjusted in a way to exclude this solution and the problem is re-solved.
 If the adjustation leads to an unfeasable reagion. The code stops and returns the last feasible solution found.
-
-## Code
-
-Refer to the **[Code](code.md)** section for detailed implementation and usage instructions.
