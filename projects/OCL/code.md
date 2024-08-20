@@ -15,7 +15,7 @@ The project code is organized into several key components:
 4. **`ModelePrediction.py`**: Responsible for training and saving the predictive models for mechanical properties and elongation.
 5. **`Optimisation.py`**: Implements the optimization algorithm and handles the export of results.
 
-## Key Functions
+## Key Function
 
 ### `optimiser_nuance`
 
