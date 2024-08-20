@@ -30,8 +30,8 @@ $$
 Where:
 
 - $Z$ is the total cost.
-- \( C_i \) is the cost of material \( i \).
-- \( x_i \) is the proportion of material \( i \) used in the recipe.
+- $C_i$ is the cost of material \( i \).
+- $x_i$ is the proportion of material \( i \) used in the recipe.
 
 ### Constraints
 
