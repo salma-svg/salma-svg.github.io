@@ -9,10 +9,11 @@ title: Code
 
 The project code is organized into several key components:
 
-1. **`ImportDonnees.py`**: Manages data import, including loading and preprocessing.
-2. **`Fonctions.py`**: Contains utility functions for various calculations and operations, such as ONO, THIELMANN, and error handling.
-3. **`ModelePrediction.py`**: Responsible for training and saving the predictive models for mechanical properties and elongation.
-4. **`Optimisation.py`**: Implements the optimization algorithm and handles the export of results.
+1. **`NettoyageDonnées.py`**: Cleans and prepares the data for training.
+2. **`ImportDonnees.py`**: Manages data import, including loading and preprocessing.
+3. **`Fonctions.py`**: Contains utility functions for various calculations and operations, such as ONO, THIELMANN, and error handling.
+4. **`ModelePrediction.py`**: Responsible for training and saving the predictive models for mechanical properties and elongation.
+5. **`Optimisation.py`**: Implements the optimization algorithm and handles the export of results.
 
 ## Key Functions
 
