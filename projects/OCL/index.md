@@ -5,36 +5,32 @@ title: Optimization with Constraint Learning
 
 # Optimization with Constraint Learning
 
-Welcome to my **Optimization with Constraint Learning** project.
-As part of my internship with 'Fonderie de Niederbronn', I had to find optimal reciepes to produce iron casts, by minimizing the pricing and assuring the quality of the products.
-This project focuses on optimizing raw material usage through advanced constraint learning techniques and predictive models.
+Welcome to the **Optimization with Constraint Learning** project. This initiative was developed as part of my internship with 'Fonderie de Niederbronn'. The goal is to optimize iron casting recipes by minimizing costs while ensuring product quality. This involves leveraging advanced constraint learning techniques and predictive modeling.
 
 ## Project Overview
 
-This project involves optimizing the cost of raw materials based on chemical composition constraints and mechanical property predictions. The main steps include:
+The project focuses on optimizing raw material usage for iron casting by balancing cost and quality. The key steps are:
 
-1. **Data cleaning** : Process the raw data given by the company, join and excract only necessary features. 
-2. **Data Import**: Load data regarding raw materials and production constraints.
-3. **Model Prediction**: Use predictive models to estimate mechanical properties (that can only be measured once the production is over).
-4. **Optimization**: Optimize the material mix to minimize cost while meeting quality constraints.
-5. **Results Export**: Save the results and predictions to Excel files.
+1. **Data Cleaning**: Process and clean the raw data provided by the company. This includes joining datasets and extracting relevant features.
+2. **Data Import**: Load data related to raw materials and production constraints.
+3. **Model Prediction**: Apply predictive models to estimate mechanical properties, which can only be measured post-production.
+4. **Optimization**: Determine the optimal mix of raw materials to minimize costs while adhering to quality constraints.
+5. **Results Export**: Save the optimized results and predictions to Excel files for further analysis.
 
 ## Key Components
 
-- **[Methodology](methodology.md)**: Learn about the algorithms and methods used in this project.
-- **[Results](results.md)**: View the results and how to interpret them.
-- **[Code](code.md)**: Understand the code structure and usage.
+- **[Methodology](methodology.md)**: Detailed explanation of the algorithms and methods used in this project.
+- **[Results](results.md)**: Insights and interpretations of the results obtained from the optimization.
+- **[Code](code.md)**: Information about the code structure, setup instructions, and how to use the code.
 
 ## Getting Started
 
-To get started with the project, refer to the **[Code](code.md)** section for setup instructions and usage.
+To get started with the project, refer to the **[Code](code.md)** section for detailed setup instructions and usage guidelines.
 
 ## About
 
-Developed by [Your Name]. Visit my [GitHub profile](https://github.com/your-username) or connect on [LinkedIn](https://linkedin.com/in/your-profile).
+Developed by [Your Name]. For more information, visit my [GitHub profile](https://github.com/your-username) or connect with me on [LinkedIn](https://linkedin.com/in/your-profile).
 
 ## Contact
 
-Email: [your-email@example.com](mailto:your-email@example.com)
-
-&copy; 2024 [Your Name]. All rights reserved.
+Email: [bouaouda.salma@gmail.com](mailto:bouaouda.salma@gmail.com)
