@@ -41,6 +41,6 @@ python Optimisation.py {directory_name} {want_to_regenerate_prediction_model} {i
 
 `directory_name`: The name of the directory where your data files are located. For example, data.
 
-want_to_regenerate_prediction_model: Set this to oui if you want to regenerate the prediction models or non if you want to use existing models. For example, oui or non.
+`want_to_regenerate_prediction_model`: Set this to oui if you want to regenerate the prediction models or non if you want to use existing models. For example, oui or non.
 
-{iron_cast_name}: The specific name of the iron cast grade you are optimizing. For example, 'GS 400-15'.
+`iron_cast_name`: The specific name of the iron cast grade you are optimizing. For example, 'GS 400-15'.
