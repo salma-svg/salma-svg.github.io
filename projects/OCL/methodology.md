@@ -37,16 +37,16 @@ The predictive modeling process is designed to estimate the mechanical propertie
 
 3. **Model Evaluation**:
    - **Metrics**:
-   -  **R² Score**: Measures the proportion of variance in the target variable explained by the model. A higher R² score indicates a better fit of the model to the data.
-      - **Root Mean Squared Error (RMSE)**: Assesses the model’s prediction accuracy by measuring the square root of the average squared errors. Lower RMSE values indicate better predictive accuracy.  
-      #### For Mechanical Resistance (Rm):
-      - **Random Forest R²**: 0.83
-      - **Random Forest RMSE**: 34.70
-      
-      #### For Elongation (Allongement):
-      - **Random Forest R²**: 0.70
-      - **Random Forest RMSE**: 2.60
-      - 
+      -  **R² Score**: Measures the proportion of variance in the target variable explained by the model. A higher R² score indicates a better fit of the model to the data.
+         - **Root Mean Squared Error (RMSE)**: Assesses the model’s prediction accuracy by measuring the square root of the average squared errors. Lower RMSE values indicate better predictive accuracy.  
+         #### For Mechanical Resistance (Rm):
+         - **Random Forest R²**: 0.83
+         - **Random Forest RMSE**: 34.70
+         
+         #### For Elongation (Allongement):
+         - **Random Forest R²**: 0.70
+         - **Random Forest RMSE**: 2.60
+
 4. **Model Saving**:
    - Models, along with normalization parameters (mean and standard deviation), are saved to disk using joblib for future use. This includes:
      - **`rf_model_rm.pkl`**: Trained model for predicting `Rm`.
