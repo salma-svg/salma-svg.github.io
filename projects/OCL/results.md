@@ -20,7 +20,7 @@ The results of the optimization are exported into two Excel files:
 
 ## Example Results
 
-- **Material Proportions**: See the optimal mix in the [resultats_GS 600-3.xlsx](/files/resultats_GS%20600-3.xlsx) file.
+- **Material Proportions**: See the optimal mix in the [resultats_GS 600-3.xlsx](files/resultats_GS%20600-3.xlsx) file.
 - **Predictions**: Check the [resultats_compositionGS 600-3.xlsx](/files/resultats_compositionGS%20600-3.xlsx) file for the predicted values.
 
 
