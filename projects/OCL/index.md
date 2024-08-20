@@ -29,7 +29,7 @@ To get started with this project, please refer to the **[Code](code.md)** sectio
 
 ## About
 
-This project was developed by [Your Name]. For more information, visit my [GitHub profile](https://github.com/your-username) or connect with me on [LinkedIn](https://linkedin.com/in/your-profile).
+This project was developed by [Salma Bouaouda]. For more information, visit my [GitHub profile](https://github.com/salma-svg) or connect with me on [LinkedIn](https://linkedin.com/in/your-profile).
 
 ## Contact
 
