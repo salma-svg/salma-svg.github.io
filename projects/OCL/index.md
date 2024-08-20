@@ -5,7 +5,7 @@ title: Iron Casting Optimization with Constraint Learning
 
 # Iron Casting Optimization with Constraint Learning
 
-Welcome to the **Iron Casting Optimization with Constraint Learning** project. During my internship at **Fonderie de Niederbronn**, I focused on optimizing iron casting recipes. The goal was to minimize material costs while ensuring the highest quality of the final products. This project employs advanced constraint learning techniques and predictive modeling to achieve these objectives.
+Welcome to the **Iron Casting Optimization with Constraint Learning** project. During my three months internship at **Fonderie de Niederbronn**, I focused on optimizing iron casting recipes. The goal was to minimize material costs while ensuring the highest quality of the final products. This project employs advanced constraint learning techniques and predictive modeling to achieve these objectives.
 
 ## Project Overview
 
