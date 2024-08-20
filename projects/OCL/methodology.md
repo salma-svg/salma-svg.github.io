@@ -21,7 +21,7 @@ THis dataset was saved in an Excel file, ready for further analysis.
 
 The predictive modeling process estimates the mechanical properties of materials using **Random Forest algorithms**. This ensemble learning method constructs multiple decision trees and aggregates their results to make predictions. It is well-suited for handling complex and non-linear relationships in data which is our case. 
 
-### Model Generation
+### Model Training
 
 1. **Data Preparation**:
    - **Import Data**: The cleaned dataset (`data_nettoyées.xlsx`) is loaded.
