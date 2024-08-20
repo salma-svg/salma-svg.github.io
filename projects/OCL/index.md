@@ -1,70 +1,36 @@
-## Mathematical Model
+---
+layout: default
+title: Iron Casting Optimization with Constraint Learning
+---
 
-The optimization problem is formulated as a linear programming problem with the objective of minimizing the cost of raw materials, subject to quality constraints.
+# Iron Casting Optimization with Constraint Learning
 
-### Objective Function
+Welcome to the **Iron Casting Optimization with Constraint Learning** project. During my three months internship at **Fonderie de Niederbronn**, I focused on optimizing iron casting recipes. The goal was to minimize material costs while ensuring the highest quality of the final products. This project employs advanced constraint learning techniques and predictive modeling to achieve these objectives.
 
-$$
-\text{Minimize} \quad Z = \sum_{i=1}^{n} C_i \cdot x_i
-$$
+## Project Overview
 
-Where:
+The project is structured into several key phases:
 
-- $Z$ is the total cost.
-- $C_i$ is the cost of material $i$.
-- $x_i$ is the proportion of material $i$ used in the recipe.
+1. **Data Cleaning**: We start by processing raw data provided by the company, including merging datasets and extracting essential features to prepare the data for analysis.
+2. **Data Import**: Data related to raw materials and production constraints is loaded and prepared for use.
+3. **Model Prediction**: Predictive models are employed to estimate mechanical properties that can only be measured after production.
+4. **Optimization**: The material mix is optimized to reduce costs while adhering to quality constraints.
+5. **Results Export**: Final results and predictions are saved and exported to Excel files for further use.
 
-### Constraints
+## Key Components
 
-#### **Quality Constraints**:
+- **[Methodology](methodology.md)**: Detailed explanations of the algorithms and methods used in the project.
+- **[Results](results.md)**: Insights and interpretations of the project results.
+- **[Code](code.md)**: A comprehensive guide to the code structure and how to use it.
 
-   ONO, Thielmann, and Mayer quality indices:
+## Getting Started
 
-   $$
-   \sum_{i=1}^{n} {\text{QualityIndex}_i} \cdot x_i \leq \text{Threshold}
-   $$
+To get started with this project, please refer to the **[Code](code.md)** section for setup instructions and usage guidelines.
 
-#### **Chemical Composition Constraints**:
- 
-For each chemical element $j$:
+## About
 
-   $$
-   \{text{Min}_j} \leq \sum_{i=1}^{n} \{text{Composition}_{i,j}} \cdot x_i \leq \{text{Max}_j}
-   $$
+This project was developed by Salma Bouaouda. For more information, visit my [GitHub profile](https://github.com/salma-svg) or connect with me on [LinkedIn](https://linkedin.com/in/your-profile).
 
-#### **Proportion Constraint**:
- 
-   $$
-   \sum_{i=1}^{n} x_i = 1
-   $$
+## Contact
 
-#### **Mechanical Properties Prediction**:
- 
-Tensile strength (RM) and elongation must satisfy specific thresholds:
-
-   $$
-   \text{RM}_{pred} \geq \text{RM}_{threshold}, \quad \text{Elongation}_{pred} \geq \text{Elongation}_{threshold}
-   $$
-
-### Variables
-
-#### **Decision Variables**:
-
-$x_i$: Proportion of material $i$ in the recipe.
-
-#### Binary variables to indicate whether a material is used or not.
-
- ### **Parameters**:
- 
-$C_i$: Cost of material $i$.
-
-$\text{QualityIndex}_i$: Quality indices (ONO, Thielmann, Mayer) for material $i$.
-
-$\text{Composition}_{i,j}$: Composition of chemical element $j$ in material $i$.
-
-$\text{Min}_j$, $\text{Max}_j$: Minimum and maximum allowable percentages of chemical element $j$.
-
-$$
-\text{RM}_{pred}$, $\text{Elongation}_{pred}
-$$
-: Predicted values for tensile strength and elongation.
+Feel free to reach out via email: [bouaouda.salma@gmail.com](mailto:bouaouda.salma@gmail.com)
