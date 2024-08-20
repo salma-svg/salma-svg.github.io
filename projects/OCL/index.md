@@ -18,9 +18,9 @@ Where:
 
 1. **Quality Constraints**:
    - ONO, Thielmann, and Mayer quality indices:
-     $
+     $$
      \sum_{i=1}^{n} \text{QualityIndex}_i \cdot x_i \leq \text{Threshold}\
-     $
+     $$
 
 2. **Chemical Composition Constraints**:
    - For each chemical element $j$:
