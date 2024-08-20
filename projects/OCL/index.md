@@ -29,7 +29,7 @@ $$
 
 Where:
 
-- \ Z \ is the total cost.
+- $Z$ is the total cost.
 - \( C_i \) is the cost of material \( i \).
 - \( x_i \) is the proportion of material \( i \) used in the recipe.
 
