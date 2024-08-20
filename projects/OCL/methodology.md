@@ -86,7 +86,8 @@ The optimization process involves the following steps:
 
 The problem is solved using the CBC or COIN-OR solvers in the Pulp, a python library .
 
-### Embedding the learned models as constraints in the optimization model
+### Embedding Learned Models as Constraints in the Optimization Model
 
-The initial solution is used as an input to the prediction model. If the output doesnt respect the quality threshold value, the linear constraints are adjusted in a way to exclude this solution and the problem is re-solved.
-If the adjustation leads to an unfeasable reagion. The code stops and returns the last feasible solution found.
+The optimization process integrates learned models by initially using the current solution as input for the prediction model. If the predicted values do not meet the required quality thresholds, the constraints of the optimization problem are adjusted to exclude the current solution. This adjustment results in a revised optimization problem that is then re-solved.
+
+Should these adjustments lead to an infeasible region where no viable solutions exist, the process halts and the most recent feasible solution is returned.
