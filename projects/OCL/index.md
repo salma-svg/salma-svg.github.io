@@ -1,36 +1,36 @@
 ---
 layout: default
-title: Optimization with Constraint Learning
+title: Iron Casting Optimization with Constraint Learning
 ---
 
-# Optimization with Constraint Learning
+# Iron Casting Optimization with Constraint Learning
 
-Welcome to the **Optimization with Constraint Learning** project. This initiative was developed as part of my internship with 'Fonderie de Niederbronn'. The goal is to optimize iron casting recipes by minimizing costs while ensuring product quality. This involves leveraging advanced constraint learning techniques and predictive modeling.
+Welcome to the **Iron Casting Optimization with Constraint Learning** project. During my internship at **Fonderie de Niederbronn**, I focused on optimizing iron casting recipes. The goal was to minimize material costs while ensuring the highest quality of the final products. This project employs advanced constraint learning techniques and predictive modeling to achieve these objectives.
 
 ## Project Overview
 
-The project focuses on optimizing raw material usage for iron casting by balancing cost and quality. The key steps are:
+The project is structured into several key phases:
 
-1. **Data Cleaning**: Process and clean the raw data provided by the company. This includes joining datasets and extracting relevant features.
-2. **Data Import**: Load data related to raw materials and production constraints.
-3. **Model Prediction**: Apply predictive models to estimate mechanical properties, which can only be measured post-production.
-4. **Optimization**: Determine the optimal mix of raw materials to minimize costs while adhering to quality constraints.
-5. **Results Export**: Save the optimized results and predictions to Excel files for further analysis.
+1. **Data Cleaning**: We start by processing raw data provided by the company, including merging datasets and extracting essential features to prepare the data for analysis.
+2. **Data Import**: Data related to raw materials and production constraints is loaded and prepared for use.
+3. **Model Prediction**: Predictive models are employed to estimate mechanical properties that can only be measured after production.
+4. **Optimization**: The material mix is optimized to reduce costs while adhering to quality constraints.
+5. **Results Export**: Final results and predictions are saved and exported to Excel files for further use.
 
 ## Key Components
 
-- **[Methodology](methodology.md)**: Detailed explanation of the algorithms and methods used in this project.
-- **[Results](results.md)**: Insights and interpretations of the results obtained from the optimization.
-- **[Code](code.md)**: Information about the code structure, setup instructions, and how to use the code.
+- **[Methodology](methodology.md)**: Detailed explanations of the algorithms and methods used in the project.
+- **[Results](results.md)**: Insights and interpretations of the project results.
+- **[Code](code.md)**: A comprehensive guide to the code structure and how to use it.
 
 ## Getting Started
 
-To get started with the project, refer to the **[Code](code.md)** section for detailed setup instructions and usage guidelines.
+To get started with this project, please refer to the **[Code](code.md)** section for setup instructions and usage guidelines.
 
 ## About
 
-Developed by [Your Name]. For more information, visit my [GitHub profile](https://github.com/your-username) or connect with me on [LinkedIn](https://linkedin.com/in/your-profile).
+This project was developed by [Your Name]. For more information, visit my [GitHub profile](https://github.com/your-username) or connect with me on [LinkedIn](https://linkedin.com/in/your-profile).
 
 ## Contact
 
-Email: [bouaouda.salma@gmail.com](mailto:bouaouda.salma@gmail.com)
+Feel free to reach out via email: [bouaouda.salma@gmail.com](mailto:bouaouda.salma@gmail.com)
