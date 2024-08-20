@@ -52,4 +52,4 @@ Binary variables to indicate whether a material is used or not.
   - $\text{QualityIndex}_i$: Quality indices (ONO, Thielmann, Mayer) for material $i$.
   - $\text{Composition}_{i,j}$: Composition of chemical element $j$ in material $i$.
   - $\text{Min}_j$, $\text{Max}_j$: Minimum and maximum allowable percentages of chemical element $j$.
-  -   $\text{RM}_{pred}$, $\text{Elongation}_{pred}$: Predicted values for tensile strength and elongation.
+  -       $\text{RM}_{pred}$, $\text{Elongation}_{pred}$: Predicted values for tensile strength and elongation.
