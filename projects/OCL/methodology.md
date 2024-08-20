@@ -19,7 +19,9 @@ Duplicate records were eliminated to ensure uniqueness. The final cleaned datase
 THis dataset was saved in an Excel file, ready for further analysis.
 ### Overview
 
-The predictive modeling process is designed to estimate the mechanical properties of materials using Random Forest algorithms. The approach depends on whether new models are generated or existing ones are utilized.
+The predictive modeling process estimates the mechanical properties of materials using **Random Forest algorithms**. This ensemble learning method constructs multiple decision trees and aggregates their results to make predictions. It is well-suited for handling complex and non-linear relationships in data which is our case. 
+
+In summary, Random Forest is employed due to its robustness and accuracy in predicting the mechanical properties of materials, which are essential for optimizing the casting process.
 
 ### Model Generation
 
