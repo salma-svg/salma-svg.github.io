@@ -88,6 +88,6 @@ The problem is solved using the CBC or COIN-OR solvers in the Pulp, a python lib
 
 ### Embedding Learned Models as Constraints in the Optimization Model
 
-The optimization process integrates learned models by initially using the current solution as input for the prediction model. If the predicted values do not meet the required quality thresholds, the constraints of the optimization problem are adjusted to exclude the current solution. This adjustment results in a revised optimization problem that is then re-solved.
+Since the approximated constraint is highly nonlinear and cannot be directly incorporated into a linear programming model, an alternative method was developed to include it in the optimization process. The approach involves integrating the learned models by using the initial solution as input for the prediction model. If the predicted values fail to meet the required quality thresholds, the constraints are modified to exclude this solution, and the optimization problem is re-solved.
 
-Should these adjustments lead to an infeasible region where no viable solutions exist, the process halts and the most recent feasible solution is returned.
+If these adjustments result in an infeasible region with no valid solutions, the process stops, and the last feasible solution is returned. While this method provides a way to incorporate complex constraints, it is not perfect, as it may still yield a solution that does not fully satisfy the constraints if no feasible region exists.
