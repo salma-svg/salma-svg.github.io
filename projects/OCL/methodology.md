@@ -83,7 +83,7 @@ The optimization process involves the following steps:
 
 ### Mathematical Model
 
-Let \( x_i \) be the proportion of each raw material \( i \).
+Let  ${x_i}$ be the proportion of each raw material \( i \).
 
 **Objective Function**:
 Minimize the total cost of materials:
