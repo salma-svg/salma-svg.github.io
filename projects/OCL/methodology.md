@@ -90,6 +90,10 @@ Minimize the total cost of materials:
 $$
 \text{minimize } \quad Z = \sum_{i} c_i \cdot x_i
 $$
+
+Minimize Z = Σ (c_i * x_i)
+
+
 where \( c_i \) is the cost of material \( i \).
 
 **Subject to**:
