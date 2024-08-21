@@ -87,11 +87,9 @@ Let  ${x_i}$ be the proportion of each raw material $i$.
 
 **Objective Function**:
 Minimize the total cost of materials:
-
-\
-\text{Minimize} \quad Z = \sum_{i} c_i \cdot x_i
-\
-
+$$
+\text{minimize } \quad Z = \sum_{i} c_i \cdot x_i
+$$
 where \( c_i \) is the cost of material \( i \).
 
 **Subject to**:
