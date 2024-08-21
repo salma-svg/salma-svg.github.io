@@ -7,7 +7,7 @@ title: Code
 
 ## Overview
 
-The project code is organized into several key components:
+The project [code](https://github.com/salma-svg/ICOCL.git) is organized into several key components:
 
 1. **`NettoyageDonnées.py`**: Cleans and prepares the data for training.
 2. **`ImportDonnees.py`**: Manages data import, including loading and preprocessing.
