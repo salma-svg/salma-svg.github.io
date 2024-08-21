@@ -25,7 +25,7 @@ The project is structured into several key phases:
 
 ## About
 
-This project was developed by Salma Bouaouda. For more information, visit my [GitHub profile](https://github.com/salma-svg) or connect with me on [LinkedIn](https://linkedin.com/in/your-profile).
+This project was developed by Salma Bouaouda. For more information, visit my [GitHub profile](https://github.com/salma-svg) or connect with me on [LinkedIn](https://linkedin.com/in/your-profile).-- add Personal Branding, photo and statement
 
 ## Contact
 
