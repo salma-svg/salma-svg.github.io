@@ -5,8 +5,6 @@ title: Methodology
 
 # Methodology
 
-
-
 ## Predictive Models
 
 ### Data cleaning
@@ -15,11 +13,11 @@ The data cleaning process involved several steps to prepare and integrate data f
 
 Traction data was similarly cleaned by renaming columns for consistency and correcting format discrepancies. Numeric columns were converted to the appropriate data types, and invalid entries were removed. Both datasets were aggregated to compute mean values where necessary, followed by merging based on common identifiers such as furnace number and nuance.
 
-Duplicate records were eliminated to ensure uniqueness. The final cleaned dataset contains each observations chemical compositions (explicative features) and the traction results (value to predict).
-THis dataset was saved in an Excel file, ready for further analysis.
+Duplicate records were eliminated to ensure uniqueness. The final cleaned dataset contains each observation's chemical compositions (explicative features) and the traction results (value to predict). This dataset was saved in an Excel file, ready for further analysis.
+
 ### Overview
 
-The predictive modeling process estimates the mechanical properties of materials using **Random Forest algorithms**. This ensemble learning method constructs multiple decision trees and aggregates their results to make predictions. It is well-suited for handling complex and non-linear relationships in data which is our case. 
+The predictive modeling process estimates the mechanical properties of materials using **Random Forest algorithms**. This ensemble learning method constructs multiple decision trees and aggregates their results to make predictions. It is well-suited for handling complex and non-linear relationships in data, which is our case.
 
 ### Model Generation
 
@@ -64,9 +62,10 @@ If pre-existing models are used (up to the user to decide):
      - **`moyenne.pkl`** and **`ecart_type.pkl`**: Normalization parameters previously saved.
 
 ## Optimization
+
 ### Data Import
 
-The optimisation part starts by importing data from Excel and CSV files, including:
+The optimization part starts by importing data from Excel and CSV files, including:
 - **`data_nettoyées.xlsx`**: Cleaned data about raw materials for prediction.
 - **`MP.csv`**: Data on material prices.
 - **`Contraintes_composants.csv`**: Constraints on chemical composition.
@@ -82,9 +81,51 @@ The optimization process involves the following steps:
    - **Quality Constraints**: Meet quality criteria using ONO, Thielmann, and Mayer metrics.
    - **Chemical Composition**: Adhere to constraints for each chemical element.
 
+### Mathematical Model
+
+Let \( x_i \) be the proportion of each raw material \( i \).
+
+**Objective Function**:
+Minimize the total cost of materials:
+
+\[
+\text{Minimize} \quad Z = \sum_{i} c_i \cdot x_i
+\]
+
+where \( c_i \) is the cost of material \( i \).
+
+**Subject to**:
+
+1. **Material Proportions**:
+   \[
+   x_{\text{min}, i} \leq x_i \leq x_{\text{max}, i} \quad \forall i
+   \]
+
+2. **Quality Constraints**:
+   - ONO Quality:
+   \[
+   \sum_{i} \text{ONO}_i \cdot x_i \leq \text{ONO}_{\text{threshold}}
+   \]
+   - Thielmann Quality:
+   \[
+   \sum_{i} \text{Thielmann}_i \cdot x_i \leq \text{Thielmann}_{\text{threshold}}
+   \]
+   - Mayer Quality:
+   \[
+   \sum_{i} \text{Mayer}_i \cdot x_i \leq \text{Mayer}_{\text{threshold}}
+   \]
+
+3. **Chemical Composition**:
+   For each chemical element \( e \):
+   \[
+   \text{min}_e \leq \sum_{i} \text{comp}_{i, e} \cdot x_i \leq \text{max}_e
+   \]
+
+where \( \text{comp}_{i, e} \) is the composition of element \( e \) in material \( i \).
+
 ### Solver
 
-The problem is solved using the CBC or COIN-OR solvers in the Pulp, a python library .
+The problem is solved using the CBC or COIN-OR solvers in the Pulp Python library.
 
 ### Embedding Learned Models as Constraints in the Optimization Model
 
