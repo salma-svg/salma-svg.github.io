@@ -33,7 +33,9 @@ The primary function for optimizing the material mix based on given constraints 
 
 ## How to Run
 
-To execute the optimization script, use the following command in your terminal:
+### Part 1: Running Without Streamlit
+
+To execute the optimization script in a standard terminal environment (without Streamlit), use the following command:
 
 ```bash
 python Optimisation.py {directory_name} {want_to_regenerate_prediction_model} {iron_cast_name}
@@ -49,3 +51,22 @@ You can for example try :
 ```bash
 python Optimisation.py data oui 'GS 400-15'
 ```
+This will run the script and produce the output directly in your terminal, with results saved to the appropriate files.
+
+### Part 2: Running with Streamlit
+
+To use Streamlit for a more interactive experience, follow these steps:
+1. **Install Streamlit**: Ensure you have Streamlit installed in your environment. You can install it using pip:
+   ```bash
+    pip install streamlit
+    ```
+2. **Run the Streamlit App**:
+   ```bash
+   streamlit run app.py
+   ```
+This will open the app in your browser, allowing you to interact with the optimization process through a web interface.
+
+
+
+
+
