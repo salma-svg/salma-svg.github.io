@@ -88,8 +88,6 @@ The problem is solved using the CBC or COIN-OR solvers in the Pulp, a python lib
 
 ### Embedding Learned Models as Constraints in the Optimization Model
 
-### Embedding Learned Models as Constraints in the Optimization Model
-
 To incorporate complex, nonlinear constraints into the optimization process, a dynamic adjustment method is used. Instead of directly integrating these constraints into the linear programming model, the approach involves:
 
 1. **Initial Solution**: Generate an initial solution based on the optimization model.
