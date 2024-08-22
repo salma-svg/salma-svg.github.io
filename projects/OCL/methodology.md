@@ -82,8 +82,16 @@ The optimization process involves the following steps:
 3. **Objective Function**: Minimize the total cost of the selected materials.
    
    ![Objective Function](assets/Objectif.png)
+
+   where ${c_i}$ is the cost of material $i$
+
 5. **Constraints**:
    - **Material Proportions**: Ensure proportions are within specified minimum and maximum limits.
+  
+   - For each chemical element $e$, the total proportion of that element in the blend must lie within specified bounds:
+
+  ![Composition Constraints](assets/Composition.png)
+     
    - **Quality Constraints**: Meet quality criteria using ONO, Thielmann, and Mayer metrics.
    - **Chemical Composition**: Adhere to constraints for each chemical element.
 
