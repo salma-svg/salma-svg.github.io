@@ -83,11 +83,12 @@ The optimization process involves the following steps:
 
 2. **Objective Function**:
 
-Minimize the total cost of the selected materials.
+   Minimize the total cost of the selected materials.
    
    ![Objective Function](assets/Objectif.png)
 
    where  c_i  is the cost of material  i 
+
 
 3. **Constraints**:
    
