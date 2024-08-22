@@ -80,7 +80,7 @@ The optimization process involves the following steps:
    ${y_i}$ : binary variable indicating whether material is used in the blend. ${y_i} = 1$  if used, otherwise ${y_i} = 0$
 
 3. **Objective Function**: Minimize the total cost of the selected materials.
-   ![Objective Function](https://github.com/salma-svg/salma-svg.github.io/tree/main/assets/Objectif.png)
+   ![Objective Function](assets/Objectif.png)
 5. **Constraints**:
    - **Material Proportions**: Ensure proportions are within specified minimum and maximum limits.
    - **Quality Constraints**: Meet quality criteria using ONO, Thielmann, and Mayer metrics.
