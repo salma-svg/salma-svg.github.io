@@ -96,7 +96,7 @@ The optimization process involves the following steps:
 
    - **Material Proportions**: Ensure proportions are within specified minimum and maximum limits.
      
-  For certain materials, the proportion used in the blend is restricted between specific bounds: (the bounds in the image are just examples, the value is an input that the user can change) 
+  For certain materials, the proportion used in the blend is restricted between specific bounds: 
   
  ![First Material Constraints](assets/material1.png)
     for specific materials  i 
