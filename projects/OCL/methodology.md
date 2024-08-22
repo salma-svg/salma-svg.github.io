@@ -77,7 +77,7 @@ The optimization process involves the following steps:
 
 1. **Define Variables**: 
    ${x_i}$ : Proportion of material $i$ in the final blend. (Continuous decision variable)
-   ${y_i}$ : binary variable indicating whether material is used in the blend. ${y_i} = 1 $  if used, otherwise ${y_i} = 0$
+   ${y_i}$ : binary variable indicating whether material is used in the blend. ${y_i} = 1$  if used, otherwise ${y_i} = 0$
 
 3. **Objective Function**: Minimize the total cost of the selected materials.
 4. **Constraints**:
