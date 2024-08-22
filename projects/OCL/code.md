@@ -32,6 +32,7 @@ The primary function for optimizing the material mix based on given constraints 
 1. **Data Import**: The function loads the necessary data files and predictive models from the specified directory.
 2. **Optimization**: It sets up and solves the linear programming problem to determine the optimal material mix while satisfying the quality and cost constraints.
 3. **Results Export**: The optimized results and predictions are saved to Excel files for further analysis.
+4. **Adjustment**: After the initial optimization, the solution is checked against the mechanical constraints (e.g., tensile strength, elongation). If the solution does not meet these constraints, the algorithm adjusts the material mix as closely as possible to ensure compliance.
 
 ## How to Run
 
