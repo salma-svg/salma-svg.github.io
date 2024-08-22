@@ -119,6 +119,18 @@ For each chemical element  e , the total proportion of that element in the blend
    -**Special Constraints** : Each x_i is bounded by its corresponding binary variable  y_i  :
    
 ![Binary Constraints](assets/binary.png)
+   -**Tensile Strength Constraint (Rm)**: The tensile strength (Rm) is predicted using a machine learning model. We want to ensure that the predicted Rm meets or exceeds a minimum threshold Rm_min
+​
+The constraint can be formulated as:
+
+![Tensile Strength Constraint](assets/Rm.png)
+
+   -**Elongation Constraint (All)**: Similarly, elongation (All) is predicted and must meet or exceed a certain threshold All_min
+   
+![Elongation Constraint](assets/All.png)
+
+   
+
 
 ### Solver
 
