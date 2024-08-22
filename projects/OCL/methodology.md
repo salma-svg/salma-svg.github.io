@@ -91,8 +91,7 @@ The optimization process involves the following steps:
   For certain materials, the proportion used in the blend is restricted between specific bounds:
   
  ![First Material Constraints](assets/material1.png)
-
- for specific materials $i$
+    for specific materials $i$
 
 
  For specific return materials:
