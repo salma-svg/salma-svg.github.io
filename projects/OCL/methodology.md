@@ -11,7 +11,7 @@ title: Methodology
 
 ### Data cleaning
 
-The data cleaning process involved several steps to prepare and integrate data from different sources for analysis. Initially, raw data from traction and spectrochemical analyses were imported from Excel files. Spectrochemical data was filtered to retain only relevant measurements and columns, removing rows with missing values and focusing on specific measurement types. Columns with inconsistent naming were standardized, and unnecessary columns were dropped.
+The data cleaning process involved several steps to prepare and integrate data from different sources for analysis. Initially, raw data from traction and spectrochemical analyses, made by the company, were imported from Excel files. Spectrochemical data was filtered to retain only relevant measurements and columns, removing rows with missing values and focusing on specific measurement types. Columns with inconsistent naming were standardized, and unnecessary columns were dropped.
 
 Traction data was similarly cleaned by renaming columns for consistency and correcting format discrepancies. Numeric columns were converted to the appropriate data types, and invalid entries were removed. Both datasets were aggregated to compute mean values where necessary, followed by merging based on common identifiers such as furnace number and nuance.
 
