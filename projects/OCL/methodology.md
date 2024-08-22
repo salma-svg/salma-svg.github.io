@@ -76,14 +76,14 @@ The optimisation part starts by importing data from Excel and CSV files, includi
 The optimization process involves the following steps:
 
 1. **Define Variables**: 
-   ${x_i}$ : Proportion of material $i$ in the final blend. (Continuous decision variable)
-   ${y_i}$ : binary variable indicating whether material is used in the blend. ${y_i} = 1$  if used, otherwise ${y_i} = 0$
+    x_i  : Proportion of material  i  in the final blend. (Continuous decision variable)
+    y_i  : binary variable indicating whether material is used in the blend.  y_i = 1   if used, otherwise  y_i = 0 
 
 3. **Objective Function**: Minimize the total cost of the selected materials.
    
    ![Objective Function](assets/Objectif.png)
 
-   where ${c_i}$ is the cost of material $i$
+   where  c_i  is the cost of material  i 
 
 5. **Constraints**:
    - **Material Proportions**: Ensure proportions are within specified minimum and maximum limits.
@@ -91,7 +91,7 @@ The optimization process involves the following steps:
   For certain materials, the proportion used in the blend is restricted between specific bounds:
   
  ![First Material Constraints](assets/material1.png)
-    for specific materials $i$
+    for specific materials  i 
 
 
  For specific return materials:
@@ -112,11 +112,11 @@ The blend must meet certain quality thresholds defined by functions ONO, THIELMA
    
    - **Chemical Composition**: Adhere to constraints for each chemical element.
 
-For each chemical element $e$, the total proportion of that element in the blend must lie within specified bounds:
+For each chemical element  e , the total proportion of that element in the blend must lie within specified bounds:
 
 ![Composition Constraints](assets/Composition.png)
 
-   -**Special Constraints** : Each {x_i} is bounded by its corresponding binary variable ${y_i}$ :
+   -**Special Constraints** : Each x_i is bounded by its corresponding binary variable  y_i  :
    
 ![Binary Constraints](assets/binary.png)
 
