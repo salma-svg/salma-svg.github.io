@@ -17,6 +17,7 @@ The results of the optimization are exported into two Excel files:
 - **Material Proportions**: The proportion of each material used in the optimal mix.
 - **Cost**: The cost associated with each material in the mix.
 - **Predictions**: Mechanical resistance and elongation predictions compared to thresholds.
+- **Chemical Component** : The percentage of the chemical component in the final product.
 
 ## Example Results
 
