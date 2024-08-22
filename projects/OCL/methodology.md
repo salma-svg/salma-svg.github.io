@@ -87,13 +87,34 @@ The optimization process involves the following steps:
 
 5. **Constraints**:
    - **Material Proportions**: Ensure proportions are within specified minimum and maximum limits.
+     
+  For certain materials, the proportion used in the blend is restricted between specific bounds:
   
-   - For each chemical element $e$, the total proportion of that element in the blend must lie within specified bounds:
+ ![First Material Constraints](assets/material1.png)
 
-  ![Composition Constraints](assets/Composition.png)
+for specific materials $i$
+
+ For specific return materials:
+
+ ![Second Material Constraints](assets/material2.png)
+
+The sum of the proportions for metallic materials must equal 1:
+
+![Metallic Material Constraints](assets/sum.png)
+
+
      
    - **Quality Constraints**: Meet quality criteria using ONO, Thielmann, and Mayer metrics.
+
+The blend must meet certain quality thresholds defined by functions ONO, THIELMANN, and MAYER:
+
+ ![Quality Constraints](assets/Quality.png)
+   
    - **Chemical Composition**: Adhere to constraints for each chemical element.
+
+For each chemical element $e$, the total proportion of that element in the blend must lie within specified bounds:
+
+![Composition Constraints](assets/Composition.png)
 
 ### Solver
 
