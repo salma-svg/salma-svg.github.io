@@ -94,7 +94,6 @@ The optimization process involves the following steps:
 
  for specific materials $i$
 
-for specific materials $i$
 
  For specific return materials:
 
