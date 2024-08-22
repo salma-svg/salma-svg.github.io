@@ -92,7 +92,7 @@ The optimization process involves the following steps:
 
 3. **Constraints**:
    
-Note: The bounds shown below are just examples. The actual values for these bounds are customizable and can be adjusted by the user based on specific requirements. Users can input their desired minimum and maximum limits in the Execel file to tailor the optimization to their needs.
+*Note*: The bounds shown below are just examples. The actual values for these bounds are customizable and can be adjusted by the user based on specific requirements. Users can input their desired minimum and maximum limits in the Execel file to tailor the optimization to their needs.
 
    - **Material Proportions**: Ensure proportions are within specified minimum and maximum limits.
      
