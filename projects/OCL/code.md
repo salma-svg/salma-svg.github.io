@@ -55,7 +55,7 @@ You can for example try :
 ```bash
 python Optimisation.py data oui 'GS 400-15'
 ```
-This will run the script and produce the output directly in your terminal, with results saved to the appropriate files.
+This will run the script and produce the output directly in your terminal, with results saved to the appropriate files in the results folder.
 
 ### Part 2: Running with Streamlit
 
