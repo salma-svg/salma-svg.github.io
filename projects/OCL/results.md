@@ -9,7 +9,7 @@ title: Results
 
 The results of the optimization are exported into two Excel files:
 1. **`resultats_{nom_nuance}.xlsx`**: Contains the optimal proportions of each material and their costs.
-2. **`resultats_composition{nom_nuance}.xlsx`**: Contains the predicted mechanical resistance and elongation of the optimized composition.
+2. **`resultats_composition{nom_nuance}.xlsx`**: Contains the final composition, the predicted mechanical resistance and elongation of the optimized composition.
 3. **`ErreursEtInfos.txt`**: This file logs some errors and informational messages generated during the execution of the code. It provides a record of some issues often encountered.
 
 ### How to Interpret Results
