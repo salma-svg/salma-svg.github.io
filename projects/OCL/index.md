@@ -21,7 +21,7 @@ The project is structured into several key phases:
 ## Key Components
 
 - **[Methodology](methodology.md)**: Detailed explanations of the algorithms and methods used in the project.
-- **[Results](results.md)**: Insights and interpretations of the project results.
+- **[Results](results.md)**: Insights of the project results.
 - **[Code](code.md)**: A comprehensive guide to the code structure and how to use it.
 
 ## About
