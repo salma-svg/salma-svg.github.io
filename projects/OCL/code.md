@@ -45,7 +45,7 @@ To execute the optimization script in a standard terminal environment (without S
 python Optimisation.py {directory_name} {want_to_regenerate_prediction_model} {iron_cast_name}
 ```
 
-`directory_name`: The name of the directory where your data files are located. For example, data.
+`directory_name`: The name of the directory where your data files are located. For example, in my repository it's 'data' folder.
 
 `want_to_regenerate_prediction_model`: Set this to oui if you want to regenerate the prediction models or non if you want to use existing models. For example, oui or non.
 
