@@ -16,6 +16,7 @@ The project is structured into several key phases:
 3. **Model Prediction**: Predictive models are employed to estimate mechanical properties that can only be measured after production.
 4. **Optimization**: The material mix is optimized to reduce costs while adhering to quality constraints.
 5. **Results Export**: Final results and predictions are saved and exported to Excel files for further use.
+6. **User Interface**: A Streamlit-based web application allows users to interact with the system, input data, run predictions, and view optimization results in a user-friendly manner.
 
 ## Key Components
 
