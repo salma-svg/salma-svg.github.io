@@ -81,7 +81,7 @@ The optimization process involves the following steps:
       
     y_i: binary variable indicating whether material is used in the blend.  y_i=1 if used, otherwise y_i=0 
 
-3. **Objective Function**:
+2. **Objective Function**:
 
 Minimize the total cost of the selected materials.
    
@@ -89,7 +89,7 @@ Minimize the total cost of the selected materials.
 
    where  c_i  is the cost of material  i 
 
-5. **Constraints**:
+3. **Constraints**:
 
    - **Material Proportions**: Ensure proportions are within specified minimum and maximum limits.
      
