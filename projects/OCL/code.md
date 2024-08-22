@@ -14,6 +14,8 @@ The project [code](https://github.com/salma-svg/ICOCL.git) is organized into sev
 3. **`Fonctions.py`**: Contains utility functions for various calculations and operations, such as ONO, THIELMANN, and error handling.
 4. **`ModelePrediction.py`**: Responsible for training and saving the predictive models for mechanical properties and elongation.
 5. **`Optimisation.py`**: Implements the optimization algorithm and handles the export of results.
+6. **`app.py`**: Provides a Streamlit-based web application interface, allowing users to interact with the project's functionalities, in a more user-friendly manner.
+
 
 ## Key Function
 
