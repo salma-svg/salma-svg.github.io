@@ -25,7 +25,7 @@ The primary function for optimizing the material mix based on given constraints 
 
 #### Parameters
 - **`nom_nuance`**: The name of the material grade to be optimized. Example values include 'GS 400-15', 'GS 450-10', etc.
-- **`dossier_donnees`**: The path to the directory containing the data files. This directory should include cleaned data, material prices, and constraints files.
+- **`dossier_donnees`**: The path to the directory containing the data files. This directory should include cleaned data, material prices, and constraints csv files.
 - **`faire_prediction`**: A flag indicating whether to regenerate prediction models. Set to `oui` (yes) to train new models, or `non` (no) to use existing models.
 
 #### Steps
