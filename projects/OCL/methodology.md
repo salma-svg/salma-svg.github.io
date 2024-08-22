@@ -16,7 +16,7 @@ The data cleaning process involved several steps to prepare and integrate data f
 Traction data was similarly cleaned by renaming columns for consistency and correcting format discrepancies. Numeric columns were converted to the appropriate data types, and invalid entries were removed. Both datasets were aggregated to compute mean values where necessary, followed by merging based on common identifiers such as furnace number and nuance.
 
 Duplicate records were eliminated to ensure uniqueness. The final cleaned dataset contains each observations chemical compositions (explicative features) and the traction results (value to predict).
-THis dataset was saved in an Excel file, ready for further analysis.
+This dataset was saved in an Excel file, ready for further analysis.
 ### Overview
 
 The predictive modeling process estimates the mechanical properties of materials using **Random Forest algorithms**. This ensemble learning method constructs multiple decision trees and aggregates their results to make predictions. It is well-suited for handling complex and non-linear relationships in data which is our case. 
@@ -68,24 +68,29 @@ If pre-existing models are used (up to the user to decide):
 
 The optimisation part starts by importing data from Excel and CSV files, including:
 - **data_nettoyées.xlsx**: Cleaned data about raw materials for prediction.
-- **MP.csv**: Data on material prices.
+- **MP.csv**: Data on material prices and their chemical coposition. 
 - **Contraintes_composants.csv**: Constraints on chemical composition.
 
 ### Optimization Algorithm
 
 The optimization process involves the following steps:
 
-1. **Define Variables**: 
-    x_i  : Proportion of material  i  in the final blend. (Continuous decision variable)
-    y_i  : binary variable indicating whether material is used in the blend.  y_i = 1   if used, otherwise  y_i = 0 
+1. **Define Variables**:
 
-3. **Objective Function**: Minimize the total cost of the selected materials.
+    x_i: Proportion of material i in the final blend (Continuous decision variable).
+      
+    y_i: binary variable indicating whether material is used in the blend.  y_i=1 if used, otherwise y_i=0 
+
+3. **Objective Function**:
+
+Minimize the total cost of the selected materials.
    
    ![Objective Function](assets/Objectif.png)
 
    where  c_i  is the cost of material  i 
 
 5. **Constraints**:
+
    - **Material Proportions**: Ensure proportions are within specified minimum and maximum limits.
      
   For certain materials, the proportion used in the blend is restricted between specific bounds:
