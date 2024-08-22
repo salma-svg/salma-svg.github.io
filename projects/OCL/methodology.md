@@ -90,10 +90,12 @@ Minimize the total cost of the selected materials.
    where  c_i  is the cost of material  i 
 
 3. **Constraints**:
+   
+Note: The bounds shown below are just examples. The actual values for these bounds are customizable and can be adjusted by the user based on specific requirements. Users can input their desired minimum and maximum limits in the Execel file to tailor the optimization to their needs.
 
    - **Material Proportions**: Ensure proportions are within specified minimum and maximum limits.
      
-  For certain materials, the proportion used in the blend is restricted between specific bounds:
+  For certain materials, the proportion used in the blend is restricted between specific bounds: (the bounds in the image are just examples, the value is an input that the user can change) 
   
  ![First Material Constraints](assets/material1.png)
     for specific materials  i 
