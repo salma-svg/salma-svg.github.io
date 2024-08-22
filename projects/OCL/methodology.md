@@ -124,7 +124,7 @@ For each chemical element  e , the total proportion of that element in the blend
 
 ![Composition Constraints](assets/Composition.png)
 
-   - **Special Constraints** : Each x_i is bounded by its corresponding binary variable  y_i  :
+   - **Binary Constraints** : Each x_i is bounded by its corresponding binary variable  y_i  :
    
 ![Binary Constraints](assets/binary.png)
 
