@@ -10,17 +10,17 @@ I specialize in optimization and data science for decision-making, and I have ex
 
 ### [Project 1: OCL (Optimization with Constraints Learning)](projects/OCL)
 Explore my summer internship project with Fonderie de Niederbronn, where I worked on Optimization with Constraints Learning.  
-Technologies/Methods Used: Constraint Learning, Optimization Algorithms  
+**Technologies/Methods Used:** Constraint Learning, Optimization Algorithms  
 [Link to detailed project page](projects/OCL)
 
 ### [Project 2: Real-Time Video Stream Optimization for Cameras](projects/AI-Deployment)
 The goal of this project was to optimize real-time video streaming from cameras and deploy an AI-driven detection model to enhance performance.  
-Technologies/Methods Used: AI Model Deployment, Real-Time Optimization  
+**Technologies/Methods Used:** AI Model Deployment, Real-Time Optimization  
 [Link to detailed project page](projects/AI-Deployment)
 
 ### [Project 3: Combinatorial Optimization](projects/CO)
 This project focused on developing an optimized solution for managing the internal logistics of an industrial workshop.  
-Technologies/Methods Used: AMPL, Local Search Heuristics, Metaheuristics  
+**Technologies/Methods Used:** AMPL, Local Search Heuristics, Metaheuristics  
 [Link to detailed project page](projects/CO)
 
 ## Contact
