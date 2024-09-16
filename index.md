@@ -1,4 +1,4 @@
-# Welcome to My Data Science Portfolio
+# Welcome to My Portfolio
 
 Hello! I'm **Salma Bouaouda**, a decision-making and data science student passionate about using data to solve real-world problems. Through my projects, I aim to extract valuable insights and drive impactful decisions using advanced data analysis, predictive modeling, and optimization techniques.
 
