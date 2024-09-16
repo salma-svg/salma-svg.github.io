@@ -11,7 +11,7 @@ This project aimed to develop an optimized solution for managing the internal lo
   
 - **Local Search Heuristic Methods**: Applied to explore potential solutions and improve system efficiency by iteratively refining the logistics processes based on neighboring solutions in the solution space.
   
-- **Metaheuristic Methods**: Employed advanced algorithms such as Genetic Algorithms, Simulated Annealing, Ant Colony Algorithm, or Tabu Search to overcome local optima in high dimension problems and find globally optimal or near-optimal solutions for the logistics problem.
+- **Metaheuristic Methods**: Employed advanced algorithms such as Genetic Algorithms, Simulated Annealing, Ant Colony Optimization, or Tabu Search to overcome local optima in high dimension problems and find globally optimal or near-optimal solutions for the logistics problem.
 
 **Outcomes**:  
 Through a combination of heuristic and metaheuristic techniques, the project successfully improved the internal logistics of the workshop. The developed solution reduced bottlenecks, optimized resource allocation, and enhanced operational flow.
