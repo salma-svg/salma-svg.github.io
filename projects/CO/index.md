@@ -1,6 +1,6 @@
-### Academic Project: Combinatorial Optimization
+### Combinatorial Optimization
 
-**Project Title**: Design and Implementation of a Solution to Optimize Internal Logistics for an Industrial Workshop
+Design and Implementation of a Solution to Optimize Internal Logistics for an Industrial Workshop
 
 **Objective**:  
 This project aimed to develop an optimized solution for managing the internal logistics of an industrial workshop. The goal was to streamline processes, minimize inefficiencies, and enhance the overall workflow within the facility by leveraging advanced optimization techniques.
