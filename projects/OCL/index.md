@@ -26,8 +26,4 @@ The project is structured into several key phases:
 
 ## About
 
-This project was developed by Salma Bouaouda. For more information, visit my [GitHub profile](https://github.com/salma-svg) or connect with me on [LinkedIn](https://linkedin.com/in/your-profile).-- add Personal Branding, photo and statement
-
-## Contact
-
-Feel free to reach out via email: [bouaouda.salma@gmail.com](mailto:bouaouda.salma@gmail.com)
+For more information feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/salma-bouaouda-049395265), email me at [bouaouda.salma@gmail.com](mailto:bouaouda.salma@gmail.com), and check my whole [porfolio] (Https://salma-svg.github.io/)
