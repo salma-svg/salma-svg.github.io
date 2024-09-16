@@ -1,5 +1,5 @@
 
-# Project: FireTracking Optimization
+# FireTracking Optimization
 
 ## Overview
 This project focused on optimizing real-time video stream processing and executing AI-based fire detection models directly at the source, i.e., as close to the cameras as possible. The project was done in collaboration with Analytics.nc, which specializes in AI-based solutions for wildfire detection in New Caledonia.
