@@ -26,4 +26,5 @@ The project is structured into several key phases:
 
 ## About
 
-For more information feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/salma-bouaouda-049395265), email me at [bouaouda.salma@gmail.com](mailto:bouaouda.salma@gmail.com), and check my whole [porfolio](https://salma-svg.github.io/)
+For more information, feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/salma-bouaouda-049395265), email me at [bouaouda.salma@gmail.com](mailto:bouaouda.salma@gmail.com), and explore my complete [portfolio](https://salma-svg.github.io/).
+
