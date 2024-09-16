@@ -17,3 +17,8 @@ This project aimed to develop an optimized solution for managing the internal lo
 Through a combination of heuristic and metaheuristic techniques, the project successfully improved the internal logistics of the workshop. The developed solution reduced bottlenecks, optimized resource allocation, and enhanced operational flow.
 
 This project demonstrates my expertise in combinatorial optimization, problem-solving, and the application of advanced techniques to real-world industrial challenges.
+
+## About
+
+For more information feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/salma-bouaouda-049395265), email me at [bouaouda.salma@gmail.com](mailto:bouaouda.salma@gmail.com), and check my whole [porfolio](https://salma-svg.github.io/)
+
